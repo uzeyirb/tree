@@ -70,13 +70,14 @@
 //Button
 .btn {
   font-size: 21px;
-  padding: 5px 20px;
+  padding: 18px 38px;
   border: 0;
   background-color: #80c1ec;
   color: #fff;
   border-radius: 3px;
   transition: all 250ms ease-in-out;
   cursor: pointer;
+  
   &:hover {
     background-color: #2386c8;
   }

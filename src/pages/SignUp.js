@@ -1,7 +1,6 @@
 import React from 'react';
-//import '../login/style.scss'
-import '../components/login/style.scss';
-import {Register, Login} from "../components/login/index";
+import '../components/Login/style.scss';
+import {Register, Login} from "../components/Login/index";
 import './SignUp.scss';
 
 

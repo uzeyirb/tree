@@ -1,6 +1,17 @@
-import React from 'react';
+import React, { Fragment } from "react";
+import AvailableTrees from "../components/Trees/AvailableTrees";
+import TreesSummary from "../components/Trees/TreesSummary";
 
 
 export default function Products() {
-  return <h1 className='products'>PRODUCTS</h1>;
+  return (
+    <Fragment>
+      <div className="treeSummary">
+        <TreesSummary />
+      </div>
+      <div className="availableTrees">
+        <AvailableTrees />
+      </div>
+    </Fragment>
+  );
 }
