@@ -1,7 +1,7 @@
 import { useRef, useState } from 'react';
 import React from 'react';
 import Input from '../../UI/Input';
-import classes from './TreesItemForm.module.css';
+import classes from './TreesItemForm.module.scss';
 
 const TreesItemForm = (props) => {
   const [amountIsValid, setAmountIsValid] = useState(true);

@@ -1,3 +1,5 @@
+$phone: 500px;
+
 .base-container {
   width: 100%;
   display: flex;
@@ -69,15 +71,15 @@
 
 //Button
 .btn {
-  font-size: 21px;
-  padding: 18px 38px;
+  font-size: 18px;
+  padding: 18px 30px;
   border: 0;
   background-color: #80c1ec;
   color: #fff;
   border-radius: 3px;
   transition: all 250ms ease-in-out;
   cursor: pointer;
-  
+
   &:hover {
     background-color: #2386c8;
   }
@@ -85,3 +87,5 @@
     outline: none;
   }
 }
+
+

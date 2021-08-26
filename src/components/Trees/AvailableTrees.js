@@ -1,6 +1,6 @@
 import Card from '../UI/Card';
 import TreesItem from './TreesItem/TreesItem';
-import classes from './AvailableTrees.module.css';
+import classes from './AvailableTrees.module.scss';
 import React from 'react';
 const DUMMY_TREES = [
   {

@@ -1,7 +1,7 @@
 import { useContext } from 'react';
 import React from 'react';
 import TreesItemForm from './TreesItemForm';
-import classes from './TreesItem.module.css';
+import classes from './TreesItem.module.scss';
 import CartContext from '../../../store/cart-context';
 
 const TreesItem = (props) => {

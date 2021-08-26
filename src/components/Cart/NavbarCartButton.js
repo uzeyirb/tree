@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { useContext, useEffect, useState } from 'react';
 import CartIcon from '../Cart/CartIcon';
 import CartContext from '../../store/cart-context';
-import classes from './NavbarCartButton.module.css';
+import classes from './NavbarCartButton.module.scss';
 
 
 const NavbarCartButton = (props) => {

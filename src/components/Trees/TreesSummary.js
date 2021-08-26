@@ -1,4 +1,4 @@
-import classes from './TreesSummary.module.css';
+import classes from './TreesSummary.module.scss';
 import React from 'react';
 const TreesSummary = () => {
   return (

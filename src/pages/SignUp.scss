@@ -1,4 +1,4 @@
-
+$main-color:#282c34;
 .sign-up {
     text-align: center;
     display: flex;
@@ -14,7 +14,7 @@
   }
   
   .App-header {
-    background-color: #282c34;
+    background-color: $main-color;
     min-height: 100vh;
     display: flex;
     flex-direction: column;

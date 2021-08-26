@@ -1,7 +1,7 @@
 import React, { useState, useEffect, Component } from "react";
 import { Button } from "./Button";
 import { Link } from "react-router-dom";
-import "./Navbar.css";
+import "./Navbar.scss";
 import NavbarCartButton from "../Cart/NavbarCartButton";
 
 
